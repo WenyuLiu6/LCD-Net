@@ -17,7 +17,7 @@ The proposed LCD-Net architecture.
 python train_CGNet.py --epoch 50 --batchsize 8 --gpu_id '1' --data_name 'LEVIR' --model_name 'CGNet'
 
 python test.py --gpu_id '1' --data_name 'WHU' --model_name 'CGNet'
-'''
+\'''
 
 ## Dataset Path Setting
 
