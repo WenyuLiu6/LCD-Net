@@ -1,5 +1,4 @@
 # LCD-Net: A Lightweight Remote Sensing Change Detection Network Combining Feature Fusion and Gating Mechanism
-##
 The proposed LCD-Net architecture.
 ![Image Description](Framework.png)
 ## Requirements
