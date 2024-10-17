@@ -12,18 +12,13 @@ The proposed LCD-Net architecture.
 - Cuda 11.3.1
 - Cudnn 11.3
 
-## Usage
+## Training and Test Process
 ```bash
 python train_CGNet.py --epoch 50 --batchsize 8 --gpu_id '1' --data_name 'LEVIR' --model_name 'CGNet'
 
 python test.py --gpu_id '1' --data_name 'WHU' --model_name 'CGNet'
+'''
 
-### Training
-```bash
-python train_LCDNet.py --epoch 200 --batchsize 8 --gpu_id '0' --data_name 'LEVIR' --model_name 'LCDNet'
-
-### Test
-python test.py --gpu_id '0' --data_name 'LEVIR' --model_name 'LCDNet'
 ## Dataset Path Setting
 
 Make sure your dataset follows this structure:
