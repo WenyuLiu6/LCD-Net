@@ -30,3 +30,6 @@ Make sure your dataset follows this structure:
      |--val  
      |--test
 
+Where A contains images of the first temporal image, B contains images of the second temporal image, and label contains ground truth maps.
+
+Comparison of the change detection metrics of different network models. 
