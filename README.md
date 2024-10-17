@@ -10,6 +10,8 @@
 - Cudnn 11.3
 
 ## Usage
+##
+[Download PDF](picture_framework.pdf)
 
 ### Training
 ```bash
