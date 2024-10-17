@@ -11,7 +11,7 @@
 
 ## Usage
 ##
-[Download PDF](picture_framework.pdf)
+[Download PDF](Framework.png)
 
 ### Training
 ```bash
