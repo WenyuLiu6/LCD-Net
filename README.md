@@ -22,7 +22,7 @@ python test.py --gpu_id '1' --data_name 'WHU' --model_name 'CGNet'
 ## Dataset Path Setting
 
 Make sure your dataset follows this structure:
-- LEVIR-CD
+- LEVIR-CD+ or SYSU or S2Looking
      |--train  
           |--A  (First temporal image)  
           |--B  (Second temporal image)  
