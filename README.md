@@ -22,12 +22,15 @@ python test.py --gpu_id '1' --data_name 'WHU' --model_name 'CGNet'
 ## Dataset Path Setting
 
 Make sure your dataset follows this structure:
-|- LEVIR-CD+ or SYSU or S2Looking
+|- LEVIR-CD+ or SYSU or S2Looking 
+
      |--train  
           |--A  (First temporal image)  
           |--B  (Second temporal image)  
           |--label (Ground truth)  
+          
      |--val  
+     
      |--test
 
 Where A contains images of the first temporal image, B contains images of the second temporal image, and label contains ground truth maps.
