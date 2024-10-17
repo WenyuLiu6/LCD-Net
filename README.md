@@ -8,3 +8,23 @@
 - TensorboardX 2.4
 - Cuda 11.3.1
 - Cudnn 11.3
+
+## Usage
+
+### Training
+```bash
+python train_LCDNet.py --epoch 200 --batchsize 8 --gpu_id '0' --data_name 'LEVIR' --model_name 'LCDNet'
+
+### Test
+python test.py --gpu_id '0' --data_name 'LEVIR' --model_name 'LCDNet'
+## Dataset Path Setting
+
+Make sure your dataset follows this structure:
+- LEVIR-CD
+     |--train  
+          |--A  (First temporal image)  
+          |--B  (Second temporal image)  
+          |--label (Ground truth)  
+     |--val  
+     |--test
+
