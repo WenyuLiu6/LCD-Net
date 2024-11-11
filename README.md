@@ -13,9 +13,9 @@ The proposed LCD-Net architecture.
 
 ## Training and Test Process
 ```bash
-python train_CGNet.py --epoch 50 --batchsize 8 --gpu_id '1' --data_name 'LEVIR' --model_name 'CGNet'
+python LCD-Net.py --epoch 50 --batchsize 8 --gpu_id '1' --data_name 'LEVIR' --model_name 'LCDNet'
 
-python test.py --gpu_id '1' --data_name 'WHU' --model_name 'CGNet'
+python test.py --gpu_id '1' --data_name 'S2Looking' --model_name 'LCDNet'
 ```
 
 ## Dataset Path Setting
